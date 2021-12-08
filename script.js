@@ -84,9 +84,7 @@ const getSubjects = () => {
   }
   console.log(newElement.innerText);
   dataParent.appendChild(newElement);
-  
 };
-
 function changeText(event) {
   event.preventDefault();
   getStudantName();
