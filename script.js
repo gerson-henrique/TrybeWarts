@@ -16,11 +16,9 @@ function itsTryber() {
   }
 }
 
-// checa o login da trybe ^
 
 btnLogin.addEventListener('click', itsTryber);
 
-// requisito de travar o botão sem checkbox:
 
 buttonEnviar.disabled = true;
 const checkBox = document.getElementById('agreement');
